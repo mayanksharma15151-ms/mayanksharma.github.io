@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mayank Sharma — AI Engineer</title>
+  <meta name="description" content="Mayank Sharma — AI Engineer building amazing, powerful and real-world AI projects. ex-Google, ex-Microsoft, Faculty at Galgotias University." />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="styles.css" />
+  <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js" defer></script>
+  <script src="script.js" defer></script>
+</head>
+<body id="top">
+
+  <!-- NAVBAR -->
+  <header class="navbar" id="navbar">
+    <div class="container nav-inner">
+      <a href="#top" class="brand">
+        <span class="brand-badge"><i data-lucide="terminal"></i></span>
+        <span class="brand-text">mayank<span class="accent-cyan">.sh</span></span>
+      </a>
+      <nav class="nav-links">
+        <a href="#about">About</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#teaching">Teaching</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <a href="#contact" class="btn btn-primary nav-cta">Let's build</a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">
+        <i data-lucide="menu"></i>
+      </button>
+    </div>
+    <div class="mobile-menu glass" id="mobileMenu">
+      <a href="#about">About</a>
+      <a href="#experience">Experience</a>
+      <a href="#projects">Projects</a>
+      <a href="#teaching">Teaching</a>
+      <a href="#contact">Contact</a>
+      <a href="#contact" class="btn btn-primary">Let's build</a>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="grid-bg"></div>
+    <div class="radial-glow"></div>
+    <div class="hero-fade"></div>
+
+    <div class="container hero-grid">
+      <div class="hero-copy">
+        <div class="pill glass">
+          <span class="dot"></span>
+          <i data-lucide="sparkles" class="ico-cyan"></i>
+          Available for collaborations · Q3 2025
+        </div>
+
+        <h1 class="hero-title">
+          <span>Hi, I'm </span><span class="text-gradient">Mayank</span><span>.</span><br />
+          <span>I engineer </span><span class="text-gradient">real-world AI.</span>
+        </h1>
+
+        <p class="hero-bio">
+          I'm an AI Engineer who has shipped production systems at Google and Microsoft, and now I
+          teach the next generation of Robotics and AI builders at Galgotias University. I live in
+          the intersection of research and engineering — turning foundation models, computer
+          vision, and robotics into products people can actually use.
+        </p>
+
+        <div class="hero-ctas">
+          <a href="#projects" class="btn btn-primary">See my projects <i data-lucide="arrow-up-right"></i></a>
+          <a href="#contact" class="btn btn-ghost">Get in touch</a>
+        </div>
+
+        <div class="hero-meta font-mono">
+          <span><i data-lucide="map-pin" class="ico-cyan"></i> New Delhi, India</span>
+          <span>ex-Google · ex-Microsoft</span>
+          <span>Galgotias University · Faculty</span>
+        </div>
+      </div>
+
+      <div class="hero-visual">
+        <div class="portrait">
+          <img src="https://images.pexels.com/photos/8295028/pexels-photo-8295028.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Mayank Sharma" />
+          <div class="portrait-overlay"></div>
+          <div class="portrait-caption glass">
+            <div>
+              <div class="cap-path font-mono">./profile.json</div>
+              <div class="cap-name">Mayank Sharma</div>
+            </div>
+            <span class="cap-version font-mono">v2025.07</span>
+          </div>
+        </div>
+        <div class="terminal glass font-mono" id="terminal">
+          <div class="tline" data-line="> booting mayank.engine ..."></div>
+          <div class="tline" data-line="> loading models: vision, language, control"></div>
+          <div class="tline" data-line="> status: shipping production AI"></div>
+          <div class="tline" data-line="> ready." data-last="1"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="section">
+    <div class="container">
+      <div class="about-grid">
+        <div>
+          <div class="section-label">About</div>
+          <h2 class="section-title">Research minds.<br /><span class="text-gradient">Shipping hands.</span></h2>
+        </div>
+        <div class="about-body">
+          <p>I care about AI systems that actually make it to production — the ones that compress a long research paper into a working API, a robot policy, or a classroom a student can walk into and start building.</p>
+          <p>At <strong>Google</strong> and <strong>Microsoft</strong>, I spent years turning cutting-edge models into scalable, measurable products. At <strong>Galgotias University</strong>, I'm building the other half of the pipeline — engineers who can hold their own in any AI team in the world.</p>
+          <p class="quote font-mono">"The best AI engineer isn't the one who reads the paper first. It's the one who ships it, evals it, and teaches someone else to do it better."</p>
+        </div>
+      </div>
+
+      <div class="stats-grid">
+        <div class="stat card"><div class="stat-value">7+</div><div class="stat-label">Years Building AI</div></div>
+        <div class="stat card"><div class="stat-value">1,200+</div><div class="stat-label">Students Mentored</div></div>
+        <div class="stat card"><div class="stat-value">40+</div><div class="stat-label">Production Models</div></div>
+        <div class="stat card"><div class="stat-value">25+</div><div class="stat-label">Research Talks</div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section id="experience" class="section">
+    <div class="container">
+      <div class="section-head">
+        <div>
+          <div class="section-label">Experience</div>
+          <h2 class="section-title">Where I've built things.</h2>
+        </div>
+        <p class="section-sub">From hyperscalers to a classroom of builders — each stop taught me how to compress research into systems people rely on.</p>
+      </div>
+
+      <div class="exp-list">
+        <div class="exp-item card">
+          <div class="exp-company">
+            <div class="exp-ico" style="--accent:#4285F4"><i data-lucide="building-2"></i></div>
+            <div><div class="exp-name">Google</div><div class="exp-period font-mono">2022 — 2024</div></div>
+          </div>
+          <div class="exp-detail">
+            <div class="exp-role">AI / ML Engineer</div>
+            <p>Worked on large-scale recommender systems and multimodal retrieval. Shipped inference pipelines serving hundreds of millions of requests.</p>
+          </div>
+        </div>
+        <div class="exp-item card">
+          <div class="exp-company">
+            <div class="exp-ico" style="--accent:#00A4EF"><i data-lucide="building-2"></i></div>
+            <div><div class="exp-name">Microsoft</div><div class="exp-period font-mono">2020 — 2022</div></div>
+          </div>
+          <div class="exp-detail">
+            <div class="exp-role">Applied Scientist</div>
+            <p>Built vision &amp; language systems for Azure AI. Led a team that reduced OCR error rate by 31% on long-tail documents.</p>
+          </div>
+        </div>
+        <div class="exp-item card">
+          <div class="exp-company">
+            <div class="exp-ico" style="--accent:#22D3EE"><i data-lucide="building-2"></i></div>
+            <div><div class="exp-name">Galgotias University</div><div class="exp-period font-mono">2024 — Present</div></div>
+          </div>
+          <div class="exp-detail">
+            <div class="exp-role">Faculty — Robotics &amp; AI Engineering</div>
+            <p>Designing courses on LLMs, Deep Learning and Autonomous Robotics. Mentoring student teams competing in global AI challenges.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects" class="section">
+    <div class="container">
+      <div class="section-head">
+        <div>
+          <div class="section-label">Selected Work</div>
+          <h2 class="section-title">Projects worth opening.</h2>
+        </div>
+        <div class="filter-chips" id="filterChips">
+          <button class="chip active" data-filter="All">All</button>
+          <button class="chip" data-filter="LLM / Agents">LLM / Agents</button>
+          <button class="chip" data-filter="Robotics">Robotics</button>
+          <button class="chip" data-filter="Computer Vision">Computer Vision</button>
+          <button class="chip" data-filter="Healthcare AI">Healthcare AI</button>
+          <button class="chip" data-filter="Autonomous Systems">Autonomous Systems</button>
+          <button class="chip" data-filter="EdTech / RAG">EdTech / RAG</button>
+        </div>
+      </div>
+
+      <div class="projects-grid" id="projectsGrid">
+        <article class="project card" data-category="LLM / Agents">
+          <div class="project-media-wrap">
+            <img class="project-media" src="https://images.unsplash.com/photo-1677442135136-760c813028c0?auto=format&fit=crop&w=1200&q=80" alt="NovaMind" />
+            <div class="project-shade"></div>
+            <div class="project-tags">
+              <span class="tag tag-cyan">LLM / Agents</span>
+              <span class="tag tag-muted">2025</span>
+            </div>
+            <div class="project-go"><i data-lucide="arrow-up-right"></i></div>
+          </div>
+          <div class="project-body">
+            <h3>NovaMind — Reasoning LLM Agent</h3>
+            <p>A tool-using agent framework with memory, planning and self-critique. Outperforms baseline GPT agents on ARC-like reasoning tasks.</p>
+            <div class="tech"><span>PyTorch</span><span>LangGraph</span><span>Ray</span><span>vLLM</span></div>
+          </div>
+        </article>
+
+        <article class="project card" data-category="Robotics">
+          <div class="project-media-wrap">
+            <img class="project-media" src="https://images.unsplash.com/photo-1562758778-e5638b5b6607?auto=format&fit=crop&w=1200&q=80" alt="Atlas-6" />
+            <div class="project-shade"></div>
+            <div class="project-tags">
+              <span class="tag tag-cyan">Robotics</span>
+              <span class="tag tag-muted">2024</span>
+            </div>
+            <div class="project-go"><i data-lucide="arrow-up-right"></i></div>
+          </div>
+          <div class="project-body">
+            <h3>Atlas-6 Humanoid Control</h3>
+            <p>End-to-end locomotion policy trained with reinforcement learning in Isaac Sim, transferred zero-shot to a 6-DoF humanoid platform.</p>
+            <div class="tech"><span>Isaac Sim</span><span>RL</span><span>ROS 2</span><span>C++</span></div>
+          </div>
+        </article>
+
+        <article class="project card" data-category="Computer Vision">
+          <div class="project-media-wrap">
+            <img class="project-media" src="https://images.pexels.com/photos/8566474/pexels-photo-8566474.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="VisionOps" />
+            <div class="project-shade"></div>
+            <div class="project-tags">
+              <span class="tag tag-cyan">Computer Vision</span>
+              <span class="tag tag-muted">2024</span>
+            </div>
+            <div class="project-go"><i data-lucide="arrow-up-right"></i></div>
+          </div>
+          <div class="project-body">
+            <h3>VisionOps — Real-time Object Detection</h3>
+            <p>On-device multi-camera detection and tracking pipeline. 62 FPS on Jetson Orin with sub-90ms end-to-end latency.</p>
+            <div class="tech"><span>YOLOv10</span><span>TensorRT</span><span>CUDA</span><span>Rust</span></div>
+          </div>
+        </article>
+
+        <article class="project card" data-category="Healthcare AI">
+          <div class="project-media-wrap">
+            <img class="project-media" src="https://images.pexels.com/photos/5181148/pexels-photo-5181148.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="MediScan" />
+            <div class="project-shade"></div>
+            <div class="project-tags">
+              <span class="tag tag-cyan">Healthcare AI</span>
+              <span class="tag tag-muted">2023</span>
+            </div>
+            <div class="project-go"><i data-lucide="arrow-up-right"></i></div>
+          </div>
+          <div class="project-body">
+            <h3>MediScan — Medical Imaging AI</h3>
+            <p>Self-supervised pretraining for chest X-ray triage. Clinically validated with 94.2% sensitivity on a 40k-study cohort.</p>
+            <div class="tech"><span>MONAI</span><span>PyTorch</span><span>DICOM</span><span>FastAPI</span></div>
+          </div>
+        </article>
+
+        <article class="project card" data-category="Autonomous Systems">
+          <div class="project-media-wrap">
+            <img class="project-media" src="https://images.unsplash.com/photo-1677756041243-08ac39882525?auto=format&fit=crop&w=1200&q=80" alt="AutoDrive-X" />
+            <div class="project-shade"></div>
+            <div class="project-tags">
+              <span class="tag tag-cyan">Autonomous Systems</span>
+              <span class="tag tag-muted">2023</span>
+            </div>
+            <div class="project-go"><i data-lucide="arrow-up-right"></i></div>
+          </div>
+          <div class="project-body">
+            <h3>AutoDrive-X — Perception Stack</h3>
+            <p>BEV perception with camera + LiDAR fusion. Trained on 2M labeled frames, deployed on a Level-2 ADAS prototype.</p>
+            <div class="tech"><span>Transformer</span><span>LiDAR</span><span>CARLA</span><span>ONNX</span></div>
+          </div>
+        </article>
+
+        <article class="project card" data-category="EdTech / RAG">
+          <div class="project-media-wrap">
+            <img class="project-media" src="https://images.unsplash.com/photo-1615938801655-3b17dbc3c090?auto=format&fit=crop&w=1200&q=80" alt="TutorAI" />
+            <div class="project-shade"></div>
+            <div class="project-tags">
+              <span class="tag tag-cyan">EdTech / RAG</span>
+              <span class="tag tag-muted">2025</span>
+            </div>
+            <div class="project-go"><i data-lucide="arrow-up-right"></i></div>
+          </div>
+          <div class="project-body">
+            <h3>TutorAI — Adaptive Learning Engine</h3>
+            <p>Retrieval-augmented tutor that adapts to each student's knowledge graph. Deployed to 600+ engineering students at Galgotias.</p>
+            <div class="tech"><span>RAG</span><span>Qdrant</span><span>LangChain</span><span>Next.js</span></div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills" class="section">
+    <div class="container">
+      <div class="section-head">
+        <div>
+          <div class="section-label">Tech Stack</div>
+          <h2 class="section-title">The tools I reach for.</h2>
+        </div>
+      </div>
+
+      <div class="skills-grid">
+        <div class="skill card">
+          <div class="skill-label font-mono">AI / ML</div>
+          <div class="skill-tags"><span>PyTorch</span><span>JAX</span><span>Hugging Face</span><span>LangChain</span><span>Ray</span><span>MONAI</span></div>
+        </div>
+        <div class="skill card">
+          <div class="skill-label font-mono">Robotics</div>
+          <div class="skill-tags"><span>ROS 2</span><span>Isaac Sim</span><span>Gazebo</span><span>MoveIt</span><span>SLAM</span><span>MPC</span></div>
+        </div>
+        <div class="skill card">
+          <div class="skill-label font-mono">Systems</div>
+          <div class="skill-tags"><span>Rust</span><span>C++</span><span>CUDA</span><span>TensorRT</span><span>Triton</span><span>vLLM</span></div>
+        </div>
+        <div class="skill card">
+          <div class="skill-label font-mono">Cloud &amp; MLOps</div>
+          <div class="skill-tags"><span>GCP</span><span>Azure AI</span><span>Kubernetes</span><span>MLflow</span><span>Airflow</span><span>Docker</span></div>
+        </div>
+      </div>
+
+      <div class="marquee-wrap">
+        <div class="marquee font-mono">
+          <span>◆ PyTorch</span><span>◆ JAX</span><span>◆ ROS 2</span><span>◆ Isaac Sim</span><span>◆ CUDA</span><span>◆ TensorRT</span><span>◆ LangChain</span><span>◆ Hugging Face</span><span>◆ Ray</span><span>◆ Kubernetes</span><span>◆ Rust</span><span>◆ vLLM</span>
+          <span>◆ PyTorch</span><span>◆ JAX</span><span>◆ ROS 2</span><span>◆ Isaac Sim</span><span>◆ CUDA</span><span>◆ TensorRT</span><span>◆ LangChain</span><span>◆ Hugging Face</span><span>◆ Ray</span><span>◆ Kubernetes</span><span>◆ Rust</span><span>◆ vLLM</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TEACHING -->
+  <section id="teaching" class="section">
+    <div class="container teach-grid">
+      <div>
+        <div class="section-label">Classroom</div>
+        <h2 class="section-title">Teaching &amp; Mentorship.</h2>
+        <p class="section-p">At Galgotias University I lead courses and research labs focused on practical, production-grade AI. My students build — not just read papers.</p>
+
+        <div class="teach-image">
+          <img src="https://images.unsplash.com/photo-1524178232363-1fb2b075b655?auto=format&fit=crop&w=1400&q=80" alt="Teaching at Galgotias" />
+          <div class="portrait-overlay"></div>
+          <div class="portrait-caption glass">
+            <div>
+              <div class="cap-path font-mono">galgotias.university</div>
+              <div class="cap-name">Applied AI Lab</div>
+            </div>
+            <span class="cap-version font-mono">Block-8 · Lab-2</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="courses">
+        <div class="course card">
+          <div class="course-ico"><i data-lucide="graduation-cap"></i></div>
+          <div>
+            <div class="course-title">Applied Deep Learning</div>
+            <div class="course-level font-mono">3rd / 4th Year</div>
+            <p>Students ship a deployed model by week 8.</p>
+          </div>
+        </div>
+        <div class="course card">
+          <div class="course-ico"><i data-lucide="users"></i></div>
+          <div>
+            <div class="course-title">Autonomous Robotics</div>
+            <div class="course-level font-mono">Graduate Elective</div>
+            <p>Lab-based, from SLAM to sim-to-real transfer.</p>
+          </div>
+        </div>
+        <div class="course card">
+          <div class="course-ico"><i data-lucide="book-open"></i></div>
+          <div>
+            <div class="course-title">LLM Engineering Workshop</div>
+            <div class="course-level font-mono">Faculty &amp; Industry</div>
+            <p>Hands-on RAG, evals and safe deployment.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIALS -->
+  <section class="section">
+    <div class="container">
+      <div class="section-head">
+        <div>
+          <div class="section-label">Kind Words</div>
+          <h2 class="section-title">From teammates and students.</h2>
+        </div>
+      </div>
+      <div class="test-grid">
+        <figure class="card test">
+          <i data-lucide="quote" class="ico-lime"></i>
+          <blockquote>“Mayank is one of those rare engineers who can take a research paper, ship it to production, and then teach it clearly the next morning.”</blockquote>
+          <figcaption><div class="test-name">Priya Nair</div><div class="test-title font-mono">Senior PM, Cloud AI</div></figcaption>
+        </figure>
+        <figure class="card test">
+          <i data-lucide="quote" class="ico-lime"></i>
+          <blockquote>“Working with Mayank reshaped how our team thinks about model deployment. He turned months of friction into a week of clean pipelines.”</blockquote>
+          <figcaption><div class="test-name">Daniel Okafor</div><div class="test-title font-mono">Staff Engineer, Fintech</div></figcaption>
+        </figure>
+        <figure class="card test">
+          <i data-lucide="quote" class="ico-lime"></i>
+          <blockquote>“His Robotics lab is the most alive classroom I've seen on campus. Students walk out able to actually build real AI systems.”</blockquote>
+          <figcaption><div class="test-name">Dr. Anand Verma</div><div class="test-title font-mono">Dean, School of CS</div></figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section">
+    <div class="container">
+      <div class="contact-card">
+        <div class="blob blob-cyan"></div>
+        <div class="blob blob-lime"></div>
+
+        <div class="contact-grid">
+          <div>
+            <div class="section-label">Contact</div>
+            <h2 class="section-title">Have a hard AI problem?<br /><span class="text-gradient">Let's talk.</span></h2>
+            <p class="section-p">Collaborations, talks, research partnerships, or just a good technical conversation — my inbox is open.</p>
+            <a href="mailto:mayank.sharma@example.com" class="mail-link font-mono"><i data-lucide="mail"></i> mayank.sharma@example.com</a>
+          </div>
+
+          <form id="contactForm" class="contact-form">
+            <div class="form-row">
+              <div>
+                <label class="font-mono">Name</label>
+                <input name="name" type="text" placeholder="Ada Lovelace" required />
+              </div>
+              <div>
+                <label class="font-mono">Email</label>
+                <input name="email" type="email" placeholder="you@company.com" required />
+              </div>
+            </div>
+            <div>
+              <label class="font-mono">Message</label>
+              <textarea name="message" rows="5" placeholder="Tell me about your project or idea..." required></textarea>
+            </div>
+            <div class="form-foot">
+              <span class="font-mono form-hint" id="formHint">End-to-end encrypted via — well, your browser for now.</span>
+              <button type="submit" class="btn btn-primary">Send <i data-lucide="send"></i></button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div>
+        <div class="foot-name">Mayank Sharma <span class="accent-cyan">.</span></div>
+        <div class="foot-meta font-mono" id="footYear">Built with care · 2025 · New Delhi, India</div>
+      </div>
+      <div class="foot-socials">
+        <a href="https://github.com" target="_blank" rel="noreferrer" aria-label="GitHub" class="icon-btn"><i data-lucide="github"></i></a>
+        <a href="https://linkedin.com" target="_blank" rel="noreferrer" aria-label="LinkedIn" class="icon-btn"><i data-lucide="linkedin"></i></a>
+        <a href="https://x.com" target="_blank" rel="noreferrer" aria-label="Twitter" class="icon-btn"><i data-lucide="twitter"></i></a>
+        <a href="mailto:mayank.sharma@example.com" aria-label="Email" class="icon-btn"><i data-lucide="mail"></i></a>
+        <a href="#top" class="icon-btn back-top">Back to top <i data-lucide="arrow-up"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- TOAST -->
+  <div id="toast" class="toast glass" role="status" aria-live="polite"></div>
+
+</body>
+</html>
